@@ -43,6 +43,14 @@ body {
   letter-spacing: 0.01em;
   font-size: 32px;
 }
+.account-icon {
+  fill: var(--colorTextPrimary);
+  height: 24px;
+  width: 24px;
+}
+.account-icon:hover {
+  fill: #ccc9c9;
+}
 .nav-list {
   display: flex;
   align-items: center;
@@ -60,7 +68,7 @@ body {
   align-items: center;
   gap: 8px;
 }
-.action-link::before {
+/* .action-link::before {
   content: "";
   width: 24px;
   height: 24px;
@@ -68,7 +76,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-}
+} */
 .hero {
   padding-top: 200px;
   padding-bottom: 745px;
@@ -182,7 +190,15 @@ body {
 .step-link:hover {
   opacity: 0.8;
 }
-.step-link::after {
+.arrow-icon {
+  fill: #fbd784;
+  width: 127px;
+  height: 21px;
+}
+.arrow-icon:hover {
+  fill: #f9b538;
+}
+/* .step-link::after {
   content: "";
   width: 24px;
   height: 16px;
@@ -190,7 +206,7 @@ body {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-}
+} */
 /* footer */
 .footer {
   padding-bottom: 120px;
